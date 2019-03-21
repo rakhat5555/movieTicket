@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+     <div class="jumbotron">
+       <h1>choose a movie</h1>
+     </div>
+     <div class="container">
+       <div class="well">
+         <form id="formOne">
+
+           <p>What movie do you want to see</p>
+           <select class="form-control" id="movie">
+             <option>Barbie</option>
+             <option>Superman</option>
+             <option>Sports</option>
+             <option>Drama</option>
+           </select>
+           <p>What time ?</p>
+           <select class="form-control" id="time">
+             <option value="1">10:00 AM</option>
+             <option>3:00 PM</option>
+             <option>6:00 PM</option>
+           </select>
+
+
+           <div class="form-group">
+             <label for="age">How old are you?</label>
+             <input id="age" class="form-control" type="number">
+           </div>
+           <button class="btn btn-info" type="submit" name="button">Find price of ticket</button>
+
+         </form>
+         <div id="showResult">
+           <ul id="result">
+
+           </ul>
+
+         </div>
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
